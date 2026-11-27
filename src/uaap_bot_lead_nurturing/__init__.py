@@ -12,4 +12,8 @@ SPEC = BotSpec(
     needs_model=False,
     needs_inbox=False,
     summary="Flags marketing leads needing follow-up; drafts one for approval. Platform workspace only.",
+    examples=(
+        "Which leads need a follow-up?",
+        "Draft a follow-up for lead <lead id>",
+    ),
 )
